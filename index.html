@@ -7,17 +7,20 @@
     <title>Arts Fora da Caixinha</title>
     <link rel="shortcut icon" href="Imagens\symbol.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <script src="codigo.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
 <section class="topnav">
     <div class="logo">
         <img src="Imagens/Logo_final.png" alt="Logo_artsforadacaixinha" height="110">
     </div>
-    <div class="links">
-            <a href="index.html">Página inicial</a>
-            <a href="artsforadacaixinha_historia.html">Nossa História</a>
-            <a href="artsforadacaixinha_contato.html">Contato</a>
+    <div class="menu">
+        <button class="menuToggle"></button>    
+        <div class="conteudoMenu">
+            <a href="index.html">Home</a></li>
+            <a href="artsforadacaixinha_historia.html">Sobre</a></li>    
+            <a href="artsforadacaixinha_contato.html">Contato</a></li>           
+        </div>
     </div>
 </section>
 
@@ -30,19 +33,19 @@
     <h4>Uma variedade de artesanatos em crochê para deixar sua casa e seus dias mais alegres!</h4>
         <div class="gallery" onclick="alerta()" focus="alerta()">
             <div class="dino">
-                <img src="Imagens\rainbowdinos.jpeg" alt="Amigurumi Rainbow Dinos" width="400" height="400">            
+                <img src="Imagens\rainbowdinos.jpeg" alt="Amigurumi Rainbow Dinos" height="300px">            
                 <p class="descr">Rainbow Dinos</p>
             </div>
             <div class="slcropped">
-                <img src="Imagens/slimcropped.jpeg" alt="Slim Cropped" width="400" height="400">
+                <img src="Imagens/slimcropped.jpeg" alt="Slim Cropped" height="300px">
                 <p class="descr">Slim Cropped</p>
             </div>
             <div class="penguino">
-                <img src="Imagens/penguino.jpeg" alt="Amigurumi Rainbow Dinos" width="400" height="400">
+                <img src="Imagens/penguino.jpeg" alt="Chaveiro Pinguim" height="300px">
                 <p class="descr">Penguino</p>
             </div>
             <div class="croppedbt">
-                <img src="Imagens/croppedbotao.jpeg" alt="Amigurumi Rainbow Dinos" width="400" height="400">
+                <img src="Imagens/croppedbotao.jpeg" alt="Cropped com botões" height="300px">
                 <p class="descr">Cropped botões</p>
             </div>
         </div>
@@ -110,12 +113,44 @@
     </div>
 </section>
 
+<main class="cards">
+    <section class="card Loja">
+        <div class="icon">
+            <img src="Imagens\carrinho-de-compras.png" alt="Loja Icon">
+        </div>
+    
+        <h3>Em breve!</h3>
+    
+        <span>Você podera adquirir lindas peças em nossa loja online!<br><br>Faça seu cadastro e receba informações em primeira mão.</span>
+    
+        <button>Cadastrar</button>
+    </section>
+    <section class="card Ig">
+        <div class="icon">
+            <img src="Imagens\instaicon.png" alt="Instagram Icon">
+        </div>
+    
+        <h3>Confira nosso Instagram!</h3>
+    
+        <span>Fique por dentro das novidades!</span>
+
+        <button>Acesse</button>    
+    </section>
+    <section class="card Whats">
+        <div class="icon">
+            <img src="Imagens\wappicon.png" alt="WhatsApp Icon">
+        </div>
+    
+        <h3>Duvidas?</h3>
+    
+        <span>Entre em contato através do nosso WahtsApp!</span>
+
+        <button>Acesse</button>
+    </section>
+</main>
+
 <section class="artigo">
     <h1>Onde nos encontrar</h1>
-    <div class="icon">
-        <a href="https://www.instagram.com/invites/contact/?i=1jd3ztjpkqxsn&utm_content=4dvv17t" target="_blank"><img src="Imagens\instaicon.png" class="media-object" alt="Instagram Icon" width="40"></a>
-        <a href="https://wa.me/qr/W733DOJY3FPOG1" target="_blank"><img src="Imagens\wappicon.png" class="media-object" alt="WhatsApp Icon" width="40"></a>
-    </div>
     <h4>Feira de artesanatos</h4>
     <p class="paragrafos">Parque Max Feffer - Suzano, SP</p>
     <div class="map">

@@ -42,3 +42,4 @@ const gallery = document.querySelector(".gallery");
         var mensagem = "Se interessou por nossas peças? Aguarde novidades em breve!";
         alert(mensagem);
     }
+

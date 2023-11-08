@@ -166,50 +166,37 @@ body {
       }
 
   .gallery {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-around;
+      display: grid;
+      grid-auto-flow: column;
+      column-gap: 10px;
+      width: 100%;
+      place-items: center;
       }
 
-      .dino {
-        display: flex;
-        flex-flow: column nowrap;
-        cursor: pointer;   
-      }
-        .dino img {
+      .dino img {
+          cursor: pointer;
           max-width: 300px;
           max-height: 300px;
           border-radius: 10px;
         }
         
-      .slcropped {
-        display: flex;
-        flex-flow: column nowrap;
-        cursor: pointer;   
-      }
-        .slcropped img{
+      .slcropped img {
+          cursor: pointer;
           max-width: 300px;
           max-height: 300px;
           border-radius: 10px;
         }
 
-      .penguino {
-        display: flex;
-        flex-flow: column nowrap;
-        cursor: pointer;   
-      }
-        .penguino img{
+
+      .penguino img {
+          cursor: pointer;
           max-width: 300px;
           max-height: 300px;
           border-radius: 10px;
         }
 
-      .croppedbt {
-        display: flex;
-        flex-flow: column nowrap;
-        cursor: pointer;   
-      }
-        .croppedbt img{
+      .croppedbt img {
+          cursor: pointer;
           max-width: 300px;
           max-height: 300px;
           border-radius: 10px;
@@ -456,6 +443,11 @@ body {
   .form {font-size: 15px;}
   .button {font-size: 16px;}
   .button2 {font-size: 16px;}
+  .gallery {grid-auto-flow: row;}
+  .gallery .dino img {max-width: 250px; max-height: 250px;}
+  .gallery .slcropped img {max-width: 250px; max-height: 250px;}
+  .gallery .penguino img {max-width: 250px; max-height: 250px;}
+  .gallery .croppedbt img {max-width: 250px; max-height: 250px;}
   .slideshow {max-width: 250px; max-height: 300px;}
   .anterior, .proximo {font-size: 11px}
   main.cards {flex-direction: column;}
